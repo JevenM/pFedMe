@@ -1,11 +1,6 @@
-import torch
 import copy
 import torch.nn as nn
-import torch.nn.functional as F
-import os
-import json
-from torch.utils.data import DataLoader
-from FLAlgorithms.optimizers.fedoptimizer import MySGD, FEDLOptimizer
+from FLAlgorithms.optimizers.fedoptimizer import MySGD
 from FLAlgorithms.users.userbase import User
 
 # Implementation for Per-FedAvg clients

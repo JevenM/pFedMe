@@ -1,5 +1,4 @@
 import torch
-import os
 
 from FLAlgorithms.users.userperavg import UserPerAvg
 from FLAlgorithms.servers.serverbase import Server

@@ -1,11 +1,5 @@
 #!/usr/bin/env python
-import h5py
-import matplotlib.pyplot as plt
-import numpy as np
 import argparse
-import importlib
-import random
-import os
 from FLAlgorithms.servers.serveravg import FedAvg
 from FLAlgorithms.servers.serverpFedMe import pFedMe
 from FLAlgorithms.servers.serverperavg import PerAvg

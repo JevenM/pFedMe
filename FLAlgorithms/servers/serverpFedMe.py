@@ -1,10 +1,8 @@
 import torch
-import os
 
 from FLAlgorithms.users.userpFedMe import UserpFedMe
 from FLAlgorithms.servers.serverbase import Server
 from utils.model_utils import read_data, read_user_data
-import numpy as np
  
 # Implementation for pFedMe Server
 
